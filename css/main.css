@@ -33,6 +33,7 @@ img {
         background-position-y: 0%;
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
     height: 100vh;
     display: block;
     position: relative;
@@ -66,10 +67,14 @@ img {
 
 @media only screen and (max-width: 560px) {
     .img-logo {
-        height: 10px;
+        height: 35px;
     }
     .header-top {
-        font-size: .3em;
+        font-size: .9em;
+    }
+    .hero {
+        background-position: center;
+        background-size: cover;
     }
 
 
