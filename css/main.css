@@ -1,0 +1,76 @@
+/* Global */
+
+@font-face {
+    font-family: "tesla";
+    src: url("../fonts/tesla.woff") format('woff');
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+  /*   -moz-box-sizing: border-box; Firefox */
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: Yu Gothic UI;
+    color: #fff;
+}
+
+img {
+    width: 100%;
+}
+
+/* Hero */
+
+.hero {
+    background-image: url(../img/tesla-hero.jpg);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    height: 100vh;
+    display: block;
+    position: relative;
+    
+}
+
+.header-top {
+    display: flex;
+    font-family: tesla;
+    text-transform: uppercase;
+    color: rgba(255,255,255, 0.9);
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.5em;
+
+
+
+}
+
+.img-logo  {
+    height: 52px;
+    width: auto;
+    padding: 0 1em;
+}
+
+@media only screen and (max-width: 1500px) {
+    .hero {
+        background-size: contain;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .img-logo {
+        height: 10px;
+    }
+    .header-top {
+        font-size: .3em;
+    }
+
+
+}
