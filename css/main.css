@@ -101,7 +101,7 @@ img {
     }
 }
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 750px) {
     .img-logo {
         height: 30px;
     }
@@ -136,7 +136,7 @@ img {
 
     .stat {
         grid-template-columns: 20px 1fr;
-        padding-right: 1em;
+        padding-right: 1em; /* Set third item's padding-right to 0 */
     }
 
     .stat-first-item {
