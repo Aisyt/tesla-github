@@ -44,7 +44,7 @@ img {
     display: flex;
     font-family: tesla;
     text-transform: uppercase;
-    color: rgba(255,255,255, 0.8);
+    color: rgba(255,255,255, 0.9);
     align-items: center;
     justify-content: center;
     padding-top: 1.5em;
@@ -93,6 +93,8 @@ img {
 
 
 
+/* Media Queries */
+
 @media only screen and (max-width: 1500px) {
     .hero {
         background-size: cover;
@@ -110,7 +112,7 @@ img {
     .hero {
         background-position: center;
         background-size: cover;
-
+        z-index: -1;
 
     }
     .hero:after {
@@ -120,7 +122,34 @@ img {
         left: 0;
         right: 0;
         bottom: 0;
-        background: linear-gradient(to bottom, transparent 50%, black 100%); /* Study gradient */
+        background: linear-gradient(to bottom, transparent 60%, black 85%, black 100%); /* Study gradient */
+        z-index: -1;
+    }
+
+
+    .stats {
+        display: flex;
+        flex-direction: row;
+        z-index: 9999;
+        margin-top: 65vh;
+    }
+
+    .stat {
+        grid-template-columns: 20px 1fr;
+        padding-right: 1em;
+    }
+
+    .stat-first-item {
+        width: 30px;
+        height: 30px;
+    }
+
+    .stat-second-item {
+        font-size: 1em;
+    }
+
+    .stat-third-item {
+        font-size: .4em;
     }
 
 }
