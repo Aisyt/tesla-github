@@ -181,3 +181,46 @@ img {
     }
 
 }
+
+@media only screen and (max-height: 415px) {
+
+    
+    .stats {
+        justify-content: unset;
+        display: flex;
+        flex-direction: column;
+        margin-top: 15vh;
+        margin-left: 10vh;
+    
+    }
+    
+    .stat {
+        grid-template-columns: 20px 1fr;
+        margin-top: .5em;
+    }
+
+    .stat-first-item {
+        width: 30px;
+        height: 30px;
+    }
+
+    .stat-second-item {
+        font-size: 1.3em;
+    }
+
+    .stat-third-item {
+        font-size: .55em;
+    }
+
+    .hero:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: unset;
+        z-index: -1;
+    }
+
+}
