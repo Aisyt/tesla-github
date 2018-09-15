@@ -147,7 +147,7 @@ img {
         display: flex;
         flex-direction: row;
         z-index: 9999;
-        margin-top: 65vh;
+        margin-top: 70vh;
         justify-content: center;
         margin-left: 0;
         flex-wrap: wrap;
@@ -178,7 +178,7 @@ img {
     }
 
     .cta {
-        padding: .6em 3em;
+        padding: .6em 2.5em;
         font-size: .8em;
     }
 
@@ -208,13 +208,15 @@ img {
         font-size: .4em;
     }
 
+
 }
 
-@media only screen and (min-height: 810px) {
+@media only screen and (max-height: 490px) {
 
     .stats {
-        margin-top: 75vh;
+        margin-top: 65vh;
     }
+
 
 }
 
