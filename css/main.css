@@ -81,7 +81,12 @@ img {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1.5em;
+}
+
+.meter {
+    transform: rotate(90deg) !important;
+    transform-origin: 50% 50%;
 }
 
 .stat-third-item {
@@ -95,13 +100,7 @@ img {
 
 /* Media Queries */
 
-@media only screen and (max-width: 1500px) {
-    .hero {
-        background-size: cover;
-    }
-}
-
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1204px) {
     .img-logo {
         height: 30px;
     }
@@ -163,8 +162,8 @@ img {
     }
 
     .stat {
-        grid-template-columns: 30px 1fr;
-        padding-right: .5em; /* Set third item's padding-right to 0 */
+        grid-template-columns: 20px 1fr;
+        padding-right: 1em; /* Set third item's padding-right to 0 */
     }
 
     .stat-first-item {
