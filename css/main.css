@@ -48,7 +48,7 @@ img {
     align-items: center;
     justify-content: center;
     padding-top: 1.5em;
-    font-size: .8em;
+    font-size: 1em;
     letter-spacing: .3em;
 }
 
@@ -101,12 +101,12 @@ img {
     }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 1024px) {
     .img-logo {
         height: 30px;
     }
     .header-top {
-        font-size: .7em;
+        font-size: 1em;
         letter-spacing: .3em;
     }
     .hero {
@@ -131,12 +131,40 @@ img {
         display: flex;
         flex-direction: row;
         z-index: 9999;
-        margin-top: 65vh;
+        margin-top: 75vh;
+        justify-content: center;
+        margin-left: 0;
     }
 
     .stat {
-        grid-template-columns: 20px 1fr;
+        grid-template-columns: 40px 1fr;
         padding-right: 1em; /* Set third item's padding-right to 0 */
+    }
+
+    .stat-first-item {
+        width: 40px;
+        height: 40px;
+    }
+
+    .stat-second-item {
+        font-size: 1.5em;
+    }
+
+    .stat-third-item {
+        font-size: .6em;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+
+    .header-top {
+        font-size: .7em;
+    }
+
+    .stat {
+        grid-template-columns: 30px 1fr;
+        padding-right: .5em; /* Set third item's padding-right to 0 */
     }
 
     .stat-first-item {
