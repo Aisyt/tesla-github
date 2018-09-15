@@ -205,11 +205,11 @@ img {
     }
 
     .stat-second-item {
-        font-size: 1.3em;
+        font-size: 1em;
     }
 
     .stat-third-item {
-        font-size: .55em;
+        font-size: .35em;
     }
 
     .hero:after {
