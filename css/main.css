@@ -118,6 +118,11 @@ img {
 }
 
 
+.scroll-indicator {
+    position: absolute;
+    bottom: 4vh;
+    left: 50vw;
+}
 
 
 /* Media Queries */
@@ -185,6 +190,14 @@ img {
         padding: .6em 2.5em;
         font-size: .8em;
     }
+
+    .scroll-indicator {
+        position: unset;
+        flex-basis: 100%;
+        margin: 1em auto 0;
+        text-align: center;
+    }
+
 
 }
 
