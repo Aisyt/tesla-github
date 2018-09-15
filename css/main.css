@@ -14,6 +14,7 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
+    list-style: none;
 }
 
 body {
@@ -48,7 +49,7 @@ img {
     align-items: center;
     justify-content: center;
     padding-top: 1.5em;
-    font-size: 1em;
+    font-size: 1.2em;
     letter-spacing: .3em;
 }
 
@@ -96,6 +97,22 @@ img {
     font-size: .8em;
 }
 
+.stats-cta {
+    margin-top: 5em;
+}
+
+.cta {
+    color: #fff;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    padding: .8em 3em;;
+    font-weight: bold;
+    font-size: .9em;
+
+}
+
+
 
 
 /* Media Queries */
@@ -130,9 +147,10 @@ img {
         display: flex;
         flex-direction: row;
         z-index: 9999;
-        margin-top: 75vh;
+        margin-top: 65vh;
         justify-content: center;
         margin-left: 0;
+        flex-wrap: wrap;
     }
 
     .stat {
@@ -151,6 +169,17 @@ img {
 
     .stat-third-item {
         font-size: .6em;
+    }
+
+    .stats-cta {
+        flex-basis: 100%;
+        margin: 1em auto 0;
+        text-align: center;
+    }
+
+    .cta {
+        padding: .6em 3em;
+        font-size: .8em;
     }
 
 }
@@ -181,9 +210,16 @@ img {
 
 }
 
+@media only screen and (min-height: 810px) {
+
+    .stats {
+        margin-top: 75vh;
+    }
+
+}
+
 @media only screen and (max-height: 415px) {
 
-    
     .stats {
         justify-content: unset;
         display: flex;
@@ -220,6 +256,12 @@ img {
         bottom: 0;
         background: unset;
         z-index: -1;
+    }
+
+    .stats-cta {
+        flex-basis: unset;
+        margin: 1em 0 0;
+        text-align: left;
     }
 
 }
