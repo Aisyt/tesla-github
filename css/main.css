@@ -147,7 +147,7 @@ img {
         display: flex;
         flex-direction: row;
         z-index: 9999;
-        margin-top: 70vh;
+        margin-top: 65vh;
         justify-content: center;
         margin-left: 0;
         flex-wrap: wrap;
