@@ -109,7 +109,12 @@ img {
     padding: .8em 3em;;
     font-weight: bold;
     font-size: .9em;
+    transition: background .2s, color .2s ease-out;
+}
 
+.cta:hover {
+    background-color: #fff;;
+    color: #000;
 }
 
 
