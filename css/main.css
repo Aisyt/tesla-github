@@ -155,7 +155,7 @@ img {
         display: flex;
         flex-direction: row;
         z-index: 9999;
-        margin-top: 55vh;
+        margin-top: 75vh;
         justify-content: center;
         margin-left: 0;
         flex-wrap: wrap;
@@ -204,6 +204,10 @@ img {
 
     .header-top {
         font-size: .7em;
+    }
+
+    .stats {
+        margin-top: 65vh;
     }
 
     .stat {
