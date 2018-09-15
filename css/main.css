@@ -230,6 +230,12 @@ img {
 
 }
 
+@media only screen and (max-height: 645px) {
+    .stats {
+        margin-top: 55vh;
+    }
+}
+
 @media only screen and (max-height: 490px) {
 
     .stats {
