@@ -33,6 +33,11 @@ h3 {
     font-size: 3em;
 }
 
+h4 {
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
 /* Hero */
 
 .hero {
@@ -127,14 +132,14 @@ h3 {
 .scroll-indicator {
     position: absolute;
     bottom: 4vh;
-    left: 50vw;
+    left: 47vw;
 }
 
 /* Safety */
 
 .safety {
     color: #000;
-
+    display: grid;
 }
 
 .title-safety {
@@ -142,11 +147,33 @@ h3 {
     margin-top: 2em;
 }
 
+.safety-features {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-gap: 3em;
+    justify-items: center;
+    margin: 4em auto 0;
+}
+
+.safety-feature {
+    justify-content: center;
+}
+
+.feature-para {
+    font-size: 1em;
+}
+
+.img-safety {
+    width: 80%;
+    margin: 10em auto 0;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 1204px) {
 
     /* Hero */
+
     .img-logo {
         height: 30px;
     }
@@ -217,6 +244,31 @@ h3 {
         text-align: center;
     }
 
+
+    /* Safety */
+
+    .safety {
+        color: #000;
+        display: block;;
+    }
+    
+    .safety-features {
+        display: block;
+        margin: 4em auto 0;
+    }
+    
+    .safety-feature {
+        padding: 2em;
+    }
+    
+    .feature-para {
+        font-size: 1em;
+    }
+    
+    .img-safety {
+        width: 100%;
+        margin: 4em auto 0;
+    }
 
 }
 
