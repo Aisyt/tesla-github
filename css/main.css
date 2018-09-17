@@ -303,7 +303,6 @@ p {
     .safety {
         color: #000;
         display: block;
-        width: 300px;
         margin: 0 auto;
         font-size: .6em;
         padding: 2em;
@@ -312,6 +311,7 @@ p {
     .safety-features {
         display: block;
         margin: 1em auto 0;
+        width: 300px;
     }
     
     .safety-feature {
