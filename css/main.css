@@ -34,7 +34,7 @@ h3 {
     color: #AD2026;
     text-transform: uppercase;
     font-family: tesla;
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 h4 {
@@ -182,10 +182,21 @@ p {
     position: relative;
     margin-top: 5em;
     display: grid;
+    grid-template-columns: 300px 350px;
+    grid-template-rows: auto;
 }
 
 .title-performance {
+    grid-column: 2/3;
+    margin-top: 50%;
+}
 
+.performance-features {
+    grid-column: 2/3; 
+}
+
+.performance-feature {
+    margin-top: 3em;
 }
 
 video {
