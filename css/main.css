@@ -410,6 +410,10 @@ p {
     .info-dual-motor > .feature-title {
         font-size: 1.8em;
     }
+
+    .info-dual-motor > .feature-para {
+        margin-top: 0;
+    }
 }
 
 @media only screen and (max-width: 640px) {
