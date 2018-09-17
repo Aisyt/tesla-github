@@ -199,7 +199,16 @@ p {
     margin-top: 3em;
 }
 
-video {
+.video-container {
+    transform: matrix(1, 0, 0, 1, 1152, 0);
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+.video-performance {
     position: absolute;
     display: block;
     top: 0;
@@ -209,15 +218,7 @@ video {
     object-fit: cover;
     object-position: 50% 50%;
     overflow: hidden;
-}
-
-.video-container {
-
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    background-color: #000000;
+    transform: matrix(1, 0, 0, 1, -384, 0);
 }
 
 /* Media Queries */
@@ -320,6 +321,20 @@ video {
     .img-safety {
         width: 100%;
         margin: 4em auto 0;
+    }
+
+    /* Performance */
+
+    .performance {
+        display: block;
+        width: 300px;
+        margin: 0 auto;
+        font-size: .6em;
+        padding: 2em;
+    }
+
+    .video-container, video {
+        display: none;
     }
 
 }
