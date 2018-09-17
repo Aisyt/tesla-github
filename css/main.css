@@ -35,6 +35,7 @@ h3 {
     text-transform: uppercase;
     font-family: tesla;
     font-size: 2.5em;
+    text-align: center;
 }
 
 h4 {
@@ -151,7 +152,6 @@ p {
 }
 
 .title-safety {
-    text-align: center;
     margin-top: 2em;
 }
 
@@ -302,7 +302,11 @@ p {
 
     .safety {
         color: #000;
-        display: block;;
+        display: block;
+        width: 300px;
+        margin: 0 auto;
+        font-size: .6em;
+        padding: 2em;
     }
     
     .safety-features {
@@ -331,6 +335,11 @@ p {
         margin: 0 auto;
         font-size: .6em;
         padding: 2em;
+        margin-top: 6em;
+    }
+
+    .title-performance {
+        margin-top: unset;
     }
 
     .video-container, video {
