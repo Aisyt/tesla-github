@@ -301,17 +301,11 @@ p {
 }
 
 .video-autopilot {
-    margin: 5em auto 0;
-    width: 100%
+    padding: 0 3em 1em;
+
 }
 
-/* Interior */
-
-.title-interior {
-    margin-top: 4em;
-}
-
-    .carouselOfImages{
+.carouselOfImages{
     position: relative;
     margin: auto;
     overflow: visible;
@@ -338,6 +332,14 @@ p {
     content: '';
   }
   
+
+  .carouselVideo > p {
+    padding: 0 5em;
+
+
+      font-size: 10px;
+  }
+
   .carouselImage {
       position: relative;
       width: 20%;
@@ -435,12 +437,16 @@ p {
       margin-bottom: 100px;
   }
   
-.marginn {
-    margin:0;
-    padding:0;
-    background-color:whitesmoke;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+/* Interior */
+
+.title-interior {
+    margin-top: 4em;
 }
+
+  
+
+
 
 /* Media Queries */
 
