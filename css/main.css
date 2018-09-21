@@ -683,6 +683,38 @@ p {
         font-size: 24px;
     }
 
+    /* Icons */
+
+    .icon-structure {
+        width: 40px !important;
+        height: 50px !important;
+    }
+
+    .icon-safety {
+        width: 25px !important;
+        height: 50px !important;
+    }
+
+    .icon-gravity {
+        width: 35px !important;
+        height: 45px !important;
+    }
+
+    .icon-breaks {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .icon-spoilers {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .icon-pedals {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
 
 }
 
