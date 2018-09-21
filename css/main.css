@@ -563,7 +563,7 @@ p {
         margin-top: unset;
     }
 
-    .video-container, video {
+    .video-container, .video-performance {
         display: none;
     }
 
