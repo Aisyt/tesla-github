@@ -339,7 +339,7 @@ p {
 
   .carouselVideo > p {
     padding: 0 5em;
-    width: 90%;
+    width: 100%;
     font-size: 16px;
     display: grid;
     justify-items: center;
@@ -451,8 +451,67 @@ p {
     margin-top: 4em;
 }
 
-  
+.interior-important-features {
+    display: grid;
+    grid-template-columns: 595px 600px;
+    margin: 5em auto 0;
+    justify-content: center;
+    grid-column-gap: 5em;
+}
 
+.interior-slider {
+    color: #000;
+    cursor: grab;
+    margin-top: 3em;
+}
+
+.interior-slider p {
+    margin-top: 1em;
+    width: 100%;
+    font-size: 16px;
+    display: grid;
+    justify-items: center;
+    padding: 0 5em;
+    text-align: center;
+}
+
+.interior-slider h5 {
+    margin-top: 1em;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    display: grid;
+    justify-items: center;
+}
+
+.content-premium-interior {
+    width: 30%;
+    margin: 8em auto 0;
+}
+
+.title-premium-interior {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Yu Gothic UI;
+    color: #000;
+}
+
+.para-premium-interior {
+    margin-top: 1em;
+    font-size: 18px;
+    line-height: 1.5;
+
+}
+
+.interior-important-feature h4:nth-child(4) {
+    margin-top: 3em;
+}
+  
+.slick-dots li button::before {
+    font-size: 20px !important;
+    margin-top: 1em;
+}
 
 
 /* Media Queries */
@@ -682,6 +741,42 @@ p {
     .title-interior {
         font-size: 24px;
     }
+
+    .interior-important-features {
+        display: block;
+        width: 320px;
+        padding: 2em;
+        margin: 2em auto 0;
+    }
+
+    .interior-important-feature:nth-child(2) {
+        margin-top: 2em;
+    }
+
+    .interior-important-feature h4 {
+        margin-top: 3em;
+    }
+
+    .interior-slider h5 {
+        font-size: 18px;
+        margin-top: .5em;
+    }
+
+    .interior-slider {
+        margin-top: 1em;
+    }
+
+    .interior-slider p {
+        margin-top: .3em;
+        font-size: 10px;
+        padding: 0;
+    }
+
+    .slick-dots li button::before {
+        font-size: 10px !important;
+        margin-top: .5em;
+    }
+    
 
     /* Icons */
 

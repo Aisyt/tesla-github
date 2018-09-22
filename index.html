@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="css/slick-theme.css">
     
     <title>Tesla - Model S</title>
 </head>
@@ -153,15 +155,125 @@
     </section>
     <section class="interior">
         <h3 class="title-interior">Interior</h3>
-        
+        <ul class="interior-important-features">
+            <li class="interior-important-feature">
+                <h4 class="feature-important-title">Built Around the Driver</h4>
+                <p class="feature-important-para">The inside of the Model 3 is unlike any other car. You can use your smartphone as a key, and access all driver controls in the central 15-inch touchscreen. The all-glass roof extends from front to back, creating a sense of openness from every seat.</p>
+                <div class="interior-slider">
+                    <div>
+                        <img src="img/interior-gallery-1.jpg" alt="Front Seats">
+                        <p>The front of Model S is extended forward, where an engine would be—providing an extremely spacious front row experience.</p>
+                    </div>
+                    <div>
+                        <img src="img/interior-gallery-2.jpg" alt="Touchscreen">
+                        <p>Model S has two driver displays—a central 17-inch touchscreen, and a second screen located behind the steering wheel.</p>
+                    </div>
+                    <div>
+                        <img src="img/interior-gallery-3.jpg" alt="Seats">
+                        <p>With the front row forward, the back seat is extremely spacious, providing a comfortable driving experience for every passenger.</p>
+                    </div>
+                    <div>
+                        <img src="img/interior-gallery-4.jpg" alt="Extra Cargo">
+                        <p>A second trunk in the front provides extra cargo room, for all your things.</p>
+                    </div>
+                </div>
+
+                <h4 class="feature-important-title">Room For Everything</h4>
+                <p class="feature-important-para">    Model S has best in class storage and fold-flat seats, providing more space than most SUVs. You can fit anything you want to bring—like a bike with the wheels on, or luggage for every passenger.</p>
+                <div class="interior-slider">
+                    <div>
+                        <img src="img/room-1.jpg" alt="Max Space">
+                        <h5>Max Space</h5>
+                        <p>Seats fold flat for all the space you need</p>
+                    </div>
+                    <div>
+                        <img src="img/room-2.jpg" alt="Luggage">
+                        <h5>Luaggage</h5>
+                        <p>Carry all your things, anywhere you go</p>
+                    </div>
+                    <div>
+                        <img src="img/room-3.jpg" alt="Bike">
+                        <h5>Bike</h5>
+                        <p>Fit your bike in the back, with the wheels on</p>
+                    </div>
+                    <div>
+                        <img src="img/room-4.jpg" alt="Snowboard">
+                        <h5>Snowboard</h5>
+                        <p>Go on an adventure with the whole family</p>
+                    </div>
+                </div>
+            </li>
+            <li class="interior-important-feature">
+                <h4 class="feature-important-title">Better Over Time</h4>
+                <p class="feature-important-para">Access everything on the 15-inch touchscreen—designed to improve over time with regular software updates, introducing new features, functionality and performance.
+                </p>
+                <div class="interior-slider">
+                    <div>
+                        <img src="img/screen1.jpg" alt="Media">
+                        <h5>Media</h5>
+                        <p>FM radio and Bluetooth® connectivity, with on-demand & internet radio capability.</p>
+                    </div>
+                    <div>
+                        <img src="img/screen2.jpg" alt="Navigation">
+                        <h5>Navigation</h5>
+                        <p>Smart routing that automatically adjusts to real-time traffic conditions.</p>
+                    </div>
+                    <div>
+                        <img src="img/screen3.jpg" alt="Controls">
+                        <h5>Controls</h5>
+                        <p>Personalized drive settings, climate controls, and cabin controls.</p>
+                    </div>
+                    <div>
+                        <img src="img/screen4.jpg" alt="Energy">
+                        <h5>Energy</h5>
+                        <p>Real-time energy consumption and range estimation.</p>
+                    </div>
+                </div>
+
+                <h4 class="feature-important-title">Premium Interior</h4>
+                <p class="feature-important-para">Tesla's quiet powertrain and meticulous noise suppression engineering create interior sound dynamics comparable to a recording studio.</p>
+                <div class="interior-slider">
+                    <div>
+                        <img src="img/premium-1.png" alt="Pollution-Free, Inside and Out">
+                        <h5>Pollution-Free, Inside and Out</h5>
+                        <p>Hospital-grade air quality is delivered through a HEPA filtration system to prevent viruses and bacteria from entering the cabin.</p>
+                    </div>
+                    <div>
+                        <img src="img/premium-2.jpg" alt="All-Weather Comfort">
+                        <h5>All-Weather Comfort</h5>
+                        <p>Enhance comfort with front and rear seat heaters, a heated steering wheel, wiper blade defrosters and washer nozzle heaters.</p>
+                    </div>
+                    <div>
+                        <img src="img/premium-3.jpg" alt="Pristine Sound">
+                        <h5>Pristine Sound</h5>
+                        <p>A custom audio system featuring 11 speakers with neodymium magnets and an 8” subwoofer.</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
     </section>
 
 
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/carousel.js"></script>
     <script src="js/main.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.interior-slider').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                adaptiveHeight: true
+            });
+        });
+
+    </script>
 </body>
 
 
