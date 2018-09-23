@@ -1007,6 +1007,12 @@ p {
         height: 1px;
     }
 
+    .united-states::before {
+        padding: 0px 6px;
+        margin-right: 2px;
+        height: 8px;
+    }
+
     /* Icons */
 
     .icon-structure {
