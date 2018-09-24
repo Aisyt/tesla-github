@@ -11,6 +11,8 @@ html {
 
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
 *, ::after, ::before {
     box-sizing: border-box;
   /*   -moz-box-sizing: border-box; Firefox */
@@ -26,7 +28,7 @@ html {
 }
 
 body {
-    font-family: Yu Gothic UI;
+    font-family: Yu Gothic UI, "Open Sans";
     color: #fff;
 }
 
@@ -385,7 +387,7 @@ p {
   }
   
 
-  .carouselVideo > p {
+  .carouselvideo > p {
     padding: 0 5em;
     width: 100%;
     font-size: 16px;
@@ -541,7 +543,7 @@ p {
     text-align: center;
     font-size: 48px;
     font-weight: bold;
-    font-family: Yu Gothic UI;
+    font-family: Yu Gothic UI, "Open Sans";
     color: #000;
 }
 
@@ -565,7 +567,7 @@ p {
 /* Order */
 
 .title-experience-model-3 {
-    font-family: Yu Gothic UI;
+    font-family: Yu Gothic UI, "Open Sans";
     color: #000;
     text-transform: unset;
     margin-top: 1em;
@@ -693,9 +695,48 @@ p {
 
 
 
-/* Media Queries */
 
 @media only screen and (max-width: 1290px) {
+    .title-performance {
+        margin-top: unset;
+    }
+
+    
+    .range-important-features {
+        grid-template-columns: 400px 500px;
+
+    }
+
+    .feature-important-title {
+        font-size: 32px;
+    }
+
+    .feature-important-para {
+        margin-top: 1em;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .interior-important-features {
+        grid-template-columns: 400px 500px;
+    }
+
+    .video-container {
+        transform: matrix(1, 0, 0, 1, 429, 0);
+    }
+
+    .video-performance {
+        transform: matrix(1, 0, 0, 1, -408, 0);
+    }
+
+    .performance {
+        grid-template-columns: 55px 350px;
+    }
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1024px) {
 
     /* Hero */
 
@@ -904,7 +945,7 @@ p {
         width: 400px;
     }
 
-    .carouselVideo > p {
+    .carouselvideo > p {
         font-size: 10px;
     }
 
@@ -1077,6 +1118,15 @@ p {
 
     .stat-third-item {
         font-size: .4em;
+    }
+
+}
+
+
+@media only screen and (max-height: 900px) {
+
+    .title-performance {
+        margin-top: unset;
     }
 
 }
